@@ -1,15 +1,12 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+
   trailingSlash: true,
-  basePath: '/ecomercenext',
-  assetPrefix: '/ecomercenext/',
+  basePath:process.env.NEXT_PUBLIC_BASE_URL,
+  assetPrefix:process.env.NEXT_PUBLIC_ASSET_URL,
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
 }
 
 

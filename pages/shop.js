@@ -52,7 +52,7 @@ export default function page(){
                             </div>
                         </div>
                         <div className="mb-5">
-                          <img className='w-full' width={255} height={433} src="/images/shop-sidebar.jpg" />
+                          <img className='w-full' width={255} height={433} src={`${process.env.NEXT_PUBLIC_ASSET_URL}/images/shop-sidebar.jpg`} />
                         </div>
 
                         <div className="border widget">
@@ -64,11 +64,10 @@ export default function page(){
                                 <p><a href="#">Smart Phone</a></p>
                             </div>
                         </div>
-
                     </div>
 
                     <div className="content w-[850px]">
-                         <div><img className='w-full' width={1360} height={263} src="/images/shop-banner-1.jpg" />
+                         <div><img className='w-full' width={1360} height={263} src={`${process.env.NEXT_PUBLIC_ASSET_URL}/images/shop-banner-1.jpg`} />
                          </div>
                          <div className="show-counters flex justify-between items-center py-3 ">
                            <div className="counter text-[14px] text-[#222]">

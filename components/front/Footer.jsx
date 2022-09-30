@@ -15,7 +15,7 @@ export default function Footer() {
                         
                         <p className=''>We are a team of designers and developers that create high quality WordPress, Magento, Prestashop, Opencart themes.</p>
                         <h4 className='py-5 text-[#222] font-bold text-[18px]' >Payment:</h4>
-                        <img width={286} alt="Picture" src="/images/payment-icon.png"  className="mb-4"  />       
+                        <img width={286} alt="Picture" src={`${process.env.NEXT_PUBLIC_ASSET_URL}/images/payment-icon.png`}  className="mb-4"  />       
                     </div>
 
                     <div className='w-[100%] sm:w-[50%] md:w-[20%]' >
@@ -75,7 +75,6 @@ export default function Footer() {
                         </div>
                     </div>
             </div>
-
             </div>
         </div>
   )

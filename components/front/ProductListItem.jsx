@@ -8,7 +8,7 @@ export default function ProductListItem() {
   return (
     <div  className=" m-1 product border p-3 hover:border-[#fedc19] transition ">
                                     <div className='relative' >
-                                      <img className='w-full' width={400} height={400} src="images/product01-400x400.jpg" />
+                                      <img className='w-full' width={400} height={400} src={`${process.env.NEXT_PUBLIC_ASSET_URL}/images/product01-400x400.jpg`} />
                                       <span className="absolute left-0 sales">Sale!</span>
                                         <button className=' absolute right-0 p-[10px] font-thin	 rounded-full hover:bg-[#fedc19] bg-[#e9e9e9] text-[#222] transition ' >
                                          <VscHeart className='inline' size={20}  />

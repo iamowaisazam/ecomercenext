@@ -5,6 +5,7 @@ import {useState} from 'react'
 import Layout from '../components/front/layout'
 
 export default function page(){
+    console.log(process.env.PATH);
 
   return (<>
           <Head>
@@ -31,7 +32,7 @@ export default function page(){
                                 <p className='text-[14px]' >+ Shop Now</p>
                             </div>
                             <div className='w-[50%]'  >
-                              <img className='w-full' width={148} height={148} src="/images/category1-img.jpg" />
+                              <img className='w-full' width={148} height={148} src={`${process.env.NEXT_PUBLIC_ASSET_URL}/images/category1-img.jpg`} />
                             </div>
                       </div>
                     </div>
