@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import {useState} from 'react'
 // import Image from 'next/image'
-
 import Layout from '../components/front/layout'
 
 export default function page(){
-    console.log(process.env.PATH);
 
+  
   return (<>
           <Head>
            <title>Home</title>
@@ -14,9 +13,7 @@ export default function page(){
            </Head>
           <Layout>
 
-
             <div className="wrapper max-w-[1280px] m-auto font-worksans ">
-
               <section>
                 <div className="flex items-center pb-2 ">
                   <div><h4 className='text-[26px] pr-5' > <span className='font-bold' >Featured </span> <span>Categories</span></h4></div>
@@ -32,16 +29,13 @@ export default function page(){
                                 <p className='text-[14px]' >+ Shop Now</p>
                             </div>
                             <div className='w-[50%]'  >
-                              <img className='w-full' width={148} height={148} src={`${process.env.NEXT_PUBLIC_ASSET_URL}/images/category1-img.jpg`} />
+                              <img className='w-full' width={148} height={148} src="/images/category1-img.jpg" />
                             </div>
                       </div>
                     </div>
                 </div>
               </section>
-              
-           
-
-              
+                
               <section className='py-[20px]' >
                         <img className='w-full' width={1360} height={161} src="/images/home4-banner2-1395x166.jpg" />
               </section>
@@ -59,9 +53,7 @@ export default function page(){
                     </div>
                 </div>
               </section>
-
             </div>
-            
             
             <div className="news-letter bg-[#F0F0F0] ">
                 <div className="max-w-[1200px] m-auto py-[40px] ">
