@@ -3,8 +3,10 @@
 const nextConfig = {
 
   trailingSlash: true,
-  basePath:"/ecomercenext/docs",
-  assetPrefix:"/ecomercenext/docs/",
+  basePath: '/gh-pages-test',
+
+  // basePath:"/ecomercenext",
+  // assetPrefix:"/ecomercenext/",
   reactStrictMode: true,
   swcMinify: true,
 }
