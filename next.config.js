@@ -2,8 +2,8 @@
 
 const nextConfig = {
   trailingSlash: true,
-  basePath: '/out',
-  assetPrefix: '/out/',
+  basePath: '/ecomercenext',
+  assetPrefix: '/ecomercenext/',
   reactStrictMode: true,
   swcMinify: true,
   images: {
