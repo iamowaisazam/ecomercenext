@@ -16,7 +16,7 @@ export default function Header() {
     <div className="font-worksans text-[14px] font-normal bg-[#fff] px-[10px] sm:px-[50px]">
              <div className="mainbar flex max-w-[1200px] m-auto py-[30px]">
                   <div className="mainbar-item w-[200px]">
-                    <Link href={'/'}><a><img alt="Picture" width={396} height={84} src="images/logo_sinrato.png" /></a></Link> 
+                    <Link href={'/'}><a><img alt="Picture" width={396} height={84} src="/images/logo_sinrato.png" /></a></Link> 
                   </div>
                   <div className="hidden lg:block w-[400px] xl:w-[700px] pl-3">
                     <div className="border border-[#ebebeb] h-[50px] rounded-sm	flex " >

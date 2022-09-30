@@ -31,7 +31,7 @@ export default function page(){
                                 <p className='text-[14px]' >+ Shop Now</p>
                             </div>
                             <div className='w-[50%]'  >
-                              <img className='w-full' width={148} height={148} src="images/category1-img.jpg" />
+                              <img className='w-full' width={148} height={148} src="/images/category1-img.jpg" />
                             </div>
                       </div>
                     </div>
@@ -42,19 +42,19 @@ export default function page(){
 
               
               <section className='py-[20px]' >
-                        {/* <Image className='w-full' width={1360} height={161} src="/images/home4-banner2-1395x166.jpg" /> */}
+                        <img className='w-full' width={1360} height={161} src="/images/home4-banner2-1395x166.jpg" />
               </section>
 
               <section className='py-[20px]' >
                 <div className="flex justify-between items-center">
                     <div>
-                        {/* <Image className='w-full' width={540} height={200} src="/images/home1-banner1-1.jpg" /> */}
+                        <img className='w-full' width={540} height={200} src="/images/home1-banner1-1.jpg" />
                     </div>
                     <div className='mx-5' >
-                        {/* <Image className='w-full' width={540} height={200} src="/images/home1-banner1-2.jpg" /> */}
+                        <img className='w-full' width={540} height={200} src="/images/home1-banner1-2.jpg" />
                     </div>
                     <div>
-                        {/* <Image className='w-full' width={540} height={200} src="/images/home1-banner1-3.jpg" /> */}
+                        <img className='w-full' width={540} height={200} src="/images/home1-banner1-3.jpg" />
                     </div>
                 </div>
               </section>
