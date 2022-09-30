@@ -3,8 +3,8 @@
 const nextConfig = {
 
   trailingSlash: true,
-  // basePath:process.env.NEXT_PUBLIC_BASE_URL,
-  // assetPrefix:process.env.NEXT_PUBLIC_ASSET_URL,
+  basePath:"/ecomercenext/docs",
+  assetPrefix:"/ecomercenext/docs/",
   reactStrictMode: true,
   swcMinify: true,
 }
